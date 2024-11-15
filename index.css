@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  color: lightgray;
+  color: #333;
 }
 
 .tabs {
@@ -28,23 +28,23 @@ h1 {
 }
 
 .tabs_tab {
-  border: 1px solid lightgray;
+  border: 1px solid #dcdcdc;
   border-bottom: none;
-  color: lightgray;
+  color: #404040;
   padding: 0.75rem 2rem;
 }
 
 .tabs_tab.is-active {
-  background-color: darkgray;
+  background-color: #dcdcdc;
 }
 
 .tabs_tab:hover {
-  background-color: gray;
+  background-color: #ccc;
 }
 
 .tabs_panel {
-  border: 1px solid lightgray;
-  color: lightgray;
+  border: 1px solid #dcdcdc;
+  color: #404040;
   flex: 1;
   padding: 1rem;
 }
