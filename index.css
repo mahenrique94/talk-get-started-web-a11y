@@ -1,0 +1,54 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100svh;
+}
+
+h1 {
+  color: lightgray;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs__list {
+  display: flex;
+}
+
+.tabs__panels {
+  display: flex;
+}
+
+.tabs_tab {
+  border: 1px solid lightgray;
+  border-bottom: none;
+  color: lightgray;
+  padding: 0.75rem 2rem;
+}
+
+.tabs_tab.is-active {
+  background-color: darkgray;
+}
+
+.tabs_tab:hover {
+  background-color: gray;
+}
+
+.tabs_panel {
+  border: 1px solid lightgray;
+  color: lightgray;
+  flex: 1;
+  padding: 1rem;
+}
+
+.is-hide {
+  display: none;
+}
